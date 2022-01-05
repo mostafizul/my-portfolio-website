@@ -1,10 +1,11 @@
 .first-section{
     display: flex;
+    margin-bottom: 90px;
 }
 .first-section-left{
     width:100%;
     padding: 0px 80px;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 .first-section-left h1{
     font-size: 44px;
@@ -12,7 +13,7 @@
 .first-section-right{
     width:100%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .first-section-right img{
     width: 400px;
@@ -49,4 +50,52 @@
     border-color: rgb(255, 94, 0);
     border-image-slice: 1;
    
+}
+.mission h1{
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 40px;
+}
+#year{
+    color: #0adf78;
+    text-decoration: 5px solid underline;
+}
+#my-mission{
+    color: #3A2453;
+}
+.mission-body{
+    display: flex;
+}
+.mission-body h1{
+    text-align: left;
+}
+.mission-body img{
+    width: 40%;
+    text-align: left;
+}
+.mission-body-content{
+    width: 100%;
+    padding: 20px 30px;
+    text-align: justify;
+    border-radius: 20px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 15px;
+}
+.mission-body-content h2{
+    font-weight: bold;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mission-body-content:nth-child(1){
+    background-color: #eee8cd;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+.mission-body-content:nth-child(2){
+    background-color: #e4ede0;
+    margin-right: 20px;
+}
+.mission-body-content:nth-child(3){
+    background-color: #BCBBFF;
+    margin-right: 80px;
 }
