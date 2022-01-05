@@ -1,0 +1,52 @@
+.first-section{
+    display: flex;
+}
+.first-section-left{
+    width:100%;
+    padding: 0px 80px;
+    margin-top: 70px;
+}
+.first-section-left h1{
+    font-size: 44px;
+}
+.first-section-right{
+    width:100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.first-section-right img{
+    width: 400px;
+    box-shadow: 2px 2px 20px grey;
+    border-radius: 300px;
+}
+.first-section-left h1{
+    font-family: 'Alfa Slab One', cursive;
+    margin-left: 10px;
+}
+#mission{
+    color: #0adf78;
+}
+.first-section-left p,a{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.first-section-left p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: justify;
+}
+#discover{
+    width: 100%;
+    text-decoration: none;
+    height: 20px;
+    background-color: #0adf78;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.heading-border{
+    border-left: 7px solid;
+    border-color: rgb(255, 94, 0);
+    border-image-slice: 1;
+   
+}
