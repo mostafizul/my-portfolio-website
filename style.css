@@ -212,9 +212,6 @@ body{
     font-size: 20px;
     color: white;
 }
-.cb-left form button:hover{
-    background-color: #d35400;
-}
 .cb-left form textarea{
     width: 65%;
     height: 100px;
