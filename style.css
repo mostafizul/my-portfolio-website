@@ -24,7 +24,7 @@
     font-family: 'Alfa Slab One', cursive;
     margin-left: 10px;
 }
-#mission{
+#heading-mission{
     color: #0adf78;
 }
 .first-section-left p,a{
@@ -35,7 +35,7 @@
     margin-top: 30px;
     text-align: justify;
 }
-#discover{
+#discover, #documentation{
     width: 100%;
     text-decoration: none;
     height: 20px;
@@ -48,8 +48,10 @@
 .heading-border{
     border-left: 7px solid;
     border-color: rgb(255, 94, 0);
-    border-image-slice: 1;
-   
+    border-image-slice: 3;  
+}
+.mission{
+    margin-bottom: 110px;
 }
 .mission h1{
     text-align: center;
@@ -92,10 +94,42 @@
     margin-right: 20px;
 }
 .mission-body-content:nth-child(2){
-    background-color: #e4ede0;
+    background-color: #F9E79F;
     margin-right: 20px;
 }
 .mission-body-content:nth-child(3){
     background-color: #BCBBFF;
     margin-right: 80px;
+}
+.upper-skills-section{
+    display: flex;
+    margin-bottom: 90px;
+}
+.lower-skills-section{
+    display: flex;
+}
+.upper-skills-left,.lower-skills-left{
+    width: 100%;
+    margin-left: 80px;
+}
+
+.upper-skills-left img{
+    width: 400px;
+}
+.lower-skills-right img{
+    width: 400px;
+    margin-left: 145px;
+}
+.upper-skills-right,.lower-skills-right{
+    width: 100%;
+    margin-right: 80px;
+}
+.upper-skills-right h1,.lower-skills-left h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+}
+.upper-skills-right p,.lower-skills-left p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-align: justify;
+    margin-bottom: 30px;
 }
